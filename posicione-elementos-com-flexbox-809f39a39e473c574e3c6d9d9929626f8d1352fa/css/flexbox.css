@@ -1,0 +1,113 @@
+.cabecalhoPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalhoPrincipal-nav{
+    display: flex;
+    flex-direction: row;
+}
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+}
+.rodapePrincipal-patrocinadores-list-link{
+    margin-left: 1rem;
+}
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
+}
+.subtitulo{
+    padding-left: 10px;
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 260px;
+    padding-left: 10px;
+
+}
+.videoSobre .container{
+    display: flex;
+}
+.videoSobre-sobre{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.videoSobre-sobre-list{
+    flex-grow: 1;
+}
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteudoPrincipal-cursos-link{
+    width: 23%; 
+}
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+
+}
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left: 0;
+
+}
+.rodapePrincipal .container{
+    width: 100%;
+}
+.rodapePrincipal-patrocinadores-list{
+    justify-content: space-between;
+    padding-right: 20px;
+}
+@media screen and (max-width: 760px) {
+    .cabecalhoPrincipal-nav{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+        width: 100%;
+    }
+    .cabecalhoPrincipal .container{
+        flex-direction: column;
+    }
+    .conteudoPrincipal-cursos-link{
+        flex-direction: column;
+        width: 100%;
+    }  
+    .videoSobre .container{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .videoSobre-video{
+        margin: 0 auto;
+    }
+    .videoSobre-button{
+        margin: 0 auto;
+    }
+    .rodapePrincipal-navMap-list{
+        height: auto;
+    }
+    .rodapePrincipal-patrocinadores .container{
+        flex-direction: column;
+    }
+    .rodapePrincipal-contatoForm-legend{
+        font-weight: bold;
+    }
+    .rodapePrincipal-contatoForm-fieldset{
+        justify-content: center;
+        }
+    
+    
+}
+
+
+
+
