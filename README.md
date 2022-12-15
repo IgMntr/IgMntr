@@ -3,5 +3,6 @@ Hello, I'm Igor and I'm a Computer Engineering student. I'm currently studying f
 HTML (5 months experience)
 CSS (5 months experience)
 Javascript (3 months experience)
+Basic SQL (MySQL)
 Advanced English
 Mid Tier German
